@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+#container{
+    background-color: rgb(29, 28, 28);
+    width: 500px;
+    border-radius: 10px;
+}
+
+h1{
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+#part0{
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+#textPart0{
+    padding-right: 15px;
+    
+}
+
+.inputTextPart0{
+    height: 25px;
+    margin-right: 5px;
+    
+}
+
+#buttomAdd{
+    width: 30px;
+    height: 25px;
+}
+
+#part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    
+}
+
+.inputTextPart1{
+    height: 25px;
+}
+
+#novasTasks{
+    
+}
+
+#botaoDeOk{
+    width: 30px;
+    height: 25px;
+}
+
+#botaoDeExcluir{
+    width: 30px;
+    height: 25px;
+}
+
+#botaoDeEditar{
+    width: 30px;
+    height: 25px;
+}
+
+.lista{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#botoes{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#listaTotal{
+    max-height: 400px;
+    overflow-y: auto;
+}

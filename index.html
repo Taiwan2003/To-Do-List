@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div id="container">
+
+        <h1>To Do List</h1>
+
+        <div id="part0">
+            <p id="textPart0">Adicione a sua tarefa:</p>
+            <input type="text" value="O que vai fazer?" class="inputTextPart0" id="inputTextAdd"><input type="button" value="+" id="buttomAdd" onclick="criar()">
+        </div>
+
+        <div id="part1">
+            <div id="part1.1">
+                <p id="textPart1.1">Pesquisar:</p>
+                <input type="text" value="Buscar" class="inputTextPart1">
+            </div>
+            <div id="part1.2">
+                <p id="textPart1.2">Filtrar</p>
+                <input type="text" value="Todos" class="inputTextPart1" >
+            </div>
+        </div>
+
+
+        <div id="listaTotal" style="max-height: 400px; overflow-y: auto;">
+        
+        </div>
+
+
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
